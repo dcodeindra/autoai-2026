@@ -1,0 +1,21 @@
+{
+  "name": "autoai-wa-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot with AutoAI and image generation",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@latest",
+    "archiver": "^7.0.1",
+    "axios": "^1.6.7",
+    "chalk": "^4.1.1",
+    "fake-useragent": "latest",
+    "file-type": "^16.5.3",
+    "form-data": "^4.0.0",
+    "pino": "^8.19.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
